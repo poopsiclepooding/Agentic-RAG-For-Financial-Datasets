@@ -1,6 +1,6 @@
 import streamlit as st
-from final import process_query  
-from final import process_admin_query  
+from pipeline import process_query  
+from pipeline import process_admin_query  
 import os
 
 # Create the folder to save uploaded files

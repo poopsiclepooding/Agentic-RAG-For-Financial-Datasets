@@ -13,11 +13,15 @@ The **Agentic Retrieval-Augmented Generation (RAG) System** offers a novel **dua
 
 2. Git clone this repo
 3. Download the requirments in the python environment
-   ```pip install -r requirments.txt```
-4. Download the h[CUAD Dataset](https://www.atticusprojectai.org/cuad)
-5. Move all PDFs and txt files in CUAD dataset into `data` folder in the working directory containing required documents for retrieval
-6. Run the code using streamlit
-   ```streamlit run app.py```
+   ```
+   pip install -r requirments.txt
+   ```
+5. Download the [CUAD Dataset](https://www.atticusprojectai.org/cuad)
+6. Move all PDFs and txt files in CUAD dataset into `data` folder in the working directory containing required documents for retrieval
+7. Run the code using streamlit
+   ```
+   streamlit run app.py
+   ```
 
 ---
 

@@ -3,6 +3,8 @@
 ## Overview
 The **Agentic Retrieval-Augmented Generation (RAG) System** offers a novel **dual-architecture approach** that bridges the gap between domain-specific and generalized retrieval methods. It provides both **adaptability** and **efficiency**, making it suitable for handling structured and unstructured datasets.
 
+![UI Showcase](ui.jpg)
+
 ---
 
 ## Installation Instructions

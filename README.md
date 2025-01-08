@@ -7,15 +7,36 @@ The **Agentic Retrieval-Augmented Generation (RAG) System** offers a novel **dua
 
 ## Installation Instructions
 
-1. Download and unzip the code files (83_h3_pathway_endterm.zip)
-2. Unzip `raptor.zip` in your working directory
-3. Ensure there is a `data` folder in the working directory containing required documents for retrieval
-3. Install Dependencies
-    - `pip install -r requirments.txt`
-4. Run the code using streamlit
-    - `streamlit run app.py`
+1. If Linux then create a python environment
+
+   If Windows/MacOS then create a docker container of linux with python 3.10
+
+2. Git clone this repo
+3. Download the requirments in the python environment
+   ```pip install -r requirments.txt```
+4. Download the h[CUAD Dataset](https://www.atticusprojectai.org/cuad)
+5. Move all PDFs and txt files in CUAD dataset into `data` folder in the working directory containing required documents for retrieval
+6. Run the code using streamlit
+   ```streamlit run app.py```
 
 ---
+
+##  Important Points
+
+1. Code written is made for CUAD dataset and to perform retrieval for any files in it. If you want to use custom dataset and files then edit the `catgory.csv` to contain categories of questiosn 
+   asked on your dataset. Also update the `metadata_filename_parties.csv` with filename and companies in your dataset.
+
+2. Questions asked must contain name of comapnies involved, the pipelines searches the `metadata_filename_parties.csv` to find contract between them and answer the query. A exmaple question is
+   `What is the Agreement Date for the contract between Birch First Global Investments Inc. and Mount Kowledge Holdings Inc.?`. 
+  
+3. For a detailed working of the pipleine refer to `agentic_rag.pdf` and pipleine diagram `diagram.jpg`.
+
+
+---
+
+
+<!-- ---
+
 ## Key Features
 
 ### 1. **Dual-Architecture Design**
@@ -46,4 +67,4 @@ The **Agentic Retrieval-Augmented Generation (RAG) System** offers a novel **dua
 - Scales seamlessly across structured and unstructured datasets.
 - Maintains a fine balance between efficiency and versatility.
 
----
+--- -->

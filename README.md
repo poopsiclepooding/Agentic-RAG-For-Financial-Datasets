@@ -1,7 +1,7 @@
 # Agentic Retrieval-Augmented Generation (RAG) System
 
 ## Overview
-The **Agentic Retrieval-Augmented Generation (RAG) System** offers a novel **dual-architecture approach** that bridges the gap between domain-specific and generalized retrieval methods. It provides both **adaptability** and **efficiency**, making it suitable for handling structured and unstructured datasets.
+The **Agentic Retrieval-Augmented Generation (RAG) System** offers a novel architecture that is made for domain-specific queries. Here it is made for CUAD Dataset which is a financial and contracts dataset. A generalized model of the provided code can also be made by changing prompts. 
 
 ![UI Showcase](ui.jpg)
 

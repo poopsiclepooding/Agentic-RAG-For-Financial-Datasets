@@ -3,7 +3,6 @@
 ## Overview
 The **Agentic Retrieval-Augmented Generation (RAG) System** offers a novel architecture that is made for domain-specific queries. Here it is made for CUAD Dataset which is a financial and contracts dataset. A generalized model of the provided code can also be made by changing prompts. For a detailed working of the pipleine refer to `agentic_rag.pdf`.
 
-**Figure 1: UI Showcase**
 ![UI Showcase](ui.jpg)
 
 
@@ -39,7 +38,6 @@ The **Agentic Retrieval-Augmented Generation (RAG) System** offers a novel archi
   
 3. For a detailed working of the pipleine refer to `agentic_rag.pdf` and pipleine diagram `diagram.jpg`.
 
-   **Figure 1: Pipeline Diagram**
 ![Pipeline Diagram](diagram.jpg)
 
 
